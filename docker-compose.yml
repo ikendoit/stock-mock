@@ -1,0 +1,10 @@
+version: "2" 
+services: 
+    web: 
+        build: ken/stockmock
+        ports: 
+            - 8089:8089
+    db: 
+        image: mysql-mongo
+        ports: 
+            - 3306:3306

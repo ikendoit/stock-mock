@@ -1,0 +1,45 @@
+{
+  "name": "stockings",
+  "version": "1.0.0",
+  "description": "stock simulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "Promise": "^1.0.5",
+    "axios": "^0.18.0",
+    "body-parser": "^1.17.2",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "client-sessions": "^0.8.0",
+    "cors": "^2.8.4",
+    "cron": "^1.2.1",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "express-validator": "^4.0.0",
+    "helmet": "^3.8.1",
+    "jsonwebtoken": "^8.1.1",
+    "mocha": "^5.0.1",
+    "mongodb": "^3.0.4",
+    "mysql": "^2.14.1",
+    "nodemon": "^1.11.0",
+    "promise": "^8.0.1",
+    "pug": "^2.0.0-rc.3",
+    "python-shell": "^0.4.0",
+    "sanitize-html": "^1.14.1",
+    "serve-favicon": "^2.4.5",
+    "validator": "^8.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikendoit/mock-stock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ikendoit/mock-stock/issues"
+  },
+  "homepage": "https://github.com/ikendoit/mock-stock#readme"
+}
