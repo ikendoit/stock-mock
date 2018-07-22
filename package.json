@@ -4,7 +4,9 @@
   "description": "stock simulation",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+		"build": "docker-compose build",
+		"up": "docker-compose up"
   },
   "author": "",
   "license": "ISC",
