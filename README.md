@@ -53,6 +53,8 @@ each player when signed up gets 50.000 $ for start
 
 - use alphavantage.co API for stock data 
 
+- NodeJS + ReactJS with mongoDB (caching stock price) and MySQL (core data). 
+
 - run 2 workers (cron jobs):
 
   - API worker: read data from mongoDB, query new stock data every 10 minutes from alphavantage.co
