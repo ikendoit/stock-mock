@@ -1,14 +1,14 @@
-#STOCK MOCK 
+# STOCK MOCK 
 
-##First, let's procrastinate: 
+## First, let's procrastinate: 
 
 https://www.youtube.com/watch?v=Qujrvw_qHH0
 
-##STOCK MARKET SIMULATION
+## STOCK MARKET SIMULATION
 
 each player when signed up gets 50.000 $ for start 
 
-###JOIN: 
+### JOIN: 
 
     - signup an account 
 
@@ -18,7 +18,7 @@ each player when signed up gets 50.000 $ for start
 
     - you have 50.000$, trade away !
 
-###ORDER TYPES:
+### ORDER TYPES:
 
     - MARKET ORDER: trade by bid/ask price.
 
@@ -26,15 +26,21 @@ each player when signed up gets 50.000 $ for start
 
     - LIMIT ORDER: set a price and wait untill the market accepts, then the order becomes market order.
 
-Current Features: 
+### Current Features: 
 
     - See stocks in database 
 
+    - Add order to buy/sell stocks
+    
+    - Check what stock/assets you are having.
+    
+    - Check what transactions are pending ( stop order or limit order ). Which means they are being processed by a cron job I set up, which will process or declinet the transaction if the price is right.
+    
+    - When pending transactions go through ( accepted or declined ), you will receive/lose money/stocks.
+
     - when clients make order for an odd stock, the system will grab that stock, return false if no stock found. 
 
-    - see your traded stocks. 
-
-Working on :
+### Working on :
 
     - Site security.
 
@@ -43,7 +49,7 @@ Working on :
     - stock-bot: a bot that trades stocks (long-term) 
 
 
-#TECHNICAL
+# TECHNICAL SPECS
 
 - use alphavantage.co API for stock data 
 
